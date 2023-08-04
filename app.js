@@ -3,7 +3,7 @@ const axios = require('axios');
 
 // OpenAI API configuration
 const OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY'; // Replace with your actual OpenAI API key
-const OPENAI_API_URL = 'https://api.openai.com/v1/engines/davinci-codex/completions';
+const OPENAI_API_URL = 'https://api.openai.com/v1/completions';
 
 // Function to get OpenAI response
 async function getOpenAIResponse(prompt) {
